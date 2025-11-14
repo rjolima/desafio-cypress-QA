@@ -58,7 +58,9 @@ cypress/
      └─ selecionarProduto.cy.js
 
 🧭 Cenários de Teste: 
-Os cenários selecionados foram escolhidos por representarem o fluxo crítico de negócio do e-commerce, cobrindo desde o registro e login até a escolha e compra de um produto. Esses processos são essenciais para garantir que o usuário consiga navegar, cadastrar-se, acessar sua conta, selecionar itens e concluir uma compra sem erros.
+Os cenários selecionados foram escolhidos por representarem o fluxo crítico de negócio do e-commerce,
+cobrindo desde o registro e login até a escolha e compra de um produto. Esses processos são essenciais
+para garantir que o usuário consiga navegar, cadastrar-se, acessar sua conta, selecionar itens e concluir uma compra sem erros.
 
 comprarProduto.cy
     Adicionar produtos ao carrinho
