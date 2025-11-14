@@ -1,0 +1,34 @@
+{
+  "nome": "desafio-cypress-QA",
+  "version": "1.0.0",
+  "description": "desafio-cypress-QA",
+  "main": "index.js",
+  "scripts": {
+    "open": "set ENVIRONMENT=hml&& cypress open",
+    "run": "set ENVIRONMENT=hml&& cypress run",
+    "clean:reports": "rmdir /S /Q cypress\\reports && mkdir cypress\\reports && mkdir cypress\\reports\\mochareports",
+    "pretest": "npm run clean:reports",
+    "test": "npm run scripts",
+    "test:proxy": "set HTTP_PROXY=http://172.16.0.1:3128 && npm run scripts",
+    "scripts": "cypress run --browser chrome --headless"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "cypress": "^13.17.0",
+    "cypress-failed-log": "^2.9.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^1.6.0",
+    "faker": "^5.4.0",
+    "faker-br": "^0.4.1",
+    "junit-report-merger": "^3.0.5",
+    "mocha": "^11.7.5",
+    "mocha-junit-reporter": "^2.0.2",
+    "mochawesome": "^7.1.0",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.1.0",
+    "npm": "^10.1.0",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "cypress-multi-reporters": "^2.0.5"
+  }
+}

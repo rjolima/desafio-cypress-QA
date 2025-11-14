@@ -1,0 +1,11 @@
+{
+    "cliente": {
+        "email": "dinno.lima@gmail.com",
+        "password": "pwd123"
+    },
+
+    "incorreta": {
+        "email": "dinno.lima@gmail.com",
+        "senha": "123456"
+    }
+}
