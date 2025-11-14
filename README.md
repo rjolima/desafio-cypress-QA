@@ -42,12 +42,12 @@ Abrir o VSCode com o projeto e no terminal digitar o comando (powershell):
 
     npm install # vai realizar a instalação de todas as dependencias criadas no projeto "Package.json"
 
-1️⃣ Rodar os testes em modo headless
-1 - roda todos os testes: npx cypress run
-2 - roda um teste específico: npx cypress run --spec "cypress/e2e/compraProduto.cy.js"
+### 2️⃣ Rodar os testes em modo headless
+        1 - roda todos os testes: npx cypress run
+        2 - roda um teste específico: npx cypress run --spec "cypress/e2e/compraProduto.cy.js"
 
-2️⃣ Rodar testes os testes via browser
-1 - npx cypress open
+### 3️⃣ Rodar testes os testes via browser
+        1 - npx cypress open
 
 📁 Estrutura dos Testes
 cypress/
