@@ -20,8 +20,8 @@
 ### 1️⃣ Clonar o repositório
 
 ```bash
-1 - Git clone: https://github.com/emcash-team/cyp.simulador.git
-2 - GitHub CLI: gh repo clone emcash-team/cyp.simulador
+1 - Git clone: https://github.com/rjolima/desafio-cypress-QA.git
+2 - GitHub CLI: gh repo clone rjolima/desafio-cypress-QA
  
 Etapas para clonar o repositório
 🔹 Opção 1 — Clonar diretamente pelo VS Code (modo gráfico)
